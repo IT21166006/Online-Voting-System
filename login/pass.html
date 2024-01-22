@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <title>Reset password</title>
+</head>
+<body>
+    <div class="header">
+        <p id="hd">BlueTech Online voting System</p>
+        <p class="remp">Registration time Remaining: <span id="remtime"></span></p>
+        <div class="nav">
+            <a href="home.html">Home</a>
+        </div>
+    </div>
+    <form action="">
+
+    <div class="pass">
+        <input type="text" id="pass1" placeholder="new password" value="" required><br>
+        <input type="text" id="pass2" placeholder="confirm password" value="" required><br>
+        <input type="button" id="pass3" value="submit"  onclick="validate()">
+    </div>
+    </form>
+    <script src="../js/time.js"></script>
+    <script src="../js/pass.js"></script>
+</body>
+</html>

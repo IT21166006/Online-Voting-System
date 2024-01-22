@@ -1,0 +1,119 @@
+.body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden !important;
+    background-image: url(/Frame\ 1\ \(1\).png);
+}
+
+nav {
+    background-color: #199FF9;
+    height: 10vh;
+}
+
+
+.view {
+    overflow-y: hidden !important;
+}
+
+#col1 {
+    background-color: #199FF9;
+    height: 90vh;
+}
+
+#col2 {
+    background-color: #D8CDCB;
+    height: 90vh;
+}
+
+.dashp {
+    font-weight: 700;
+    /* color: #fff; */
+    font-size: 1.3vw;
+}
+
+.cards {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    width: 200px;
+    height: 150px;
+    background-color: red;
+}
+
+.card1 {
+    background-color: #968D90;
+  
+}
+.c-content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+.card2 {
+    background-color: #C4FABB;
+}
+
+.card3 {
+    background-color: #FDC433;
+}
+
+.card4 {
+    background-color: #FA3030;
+}
+
+.cards2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cards2 .stats .charts {
+    height: 10vw;
+
+}
+.cards2 .stats .charts img{
+    height: 10vw;
+    width: 8vw;
+
+}
+/* .cards .card2  */
+.more {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2vw;
+}
+.info {
+    background-color: #C4C4C4;
+    width: 40%;
+    margin-top: 2vw;
+}
+
+ul li {
+    margin-left: 3vw;
+    top: 6vw;
+    padding: 0.8vw;
+    list-style-type: none;
+    align-items: center;
+}
+
+#col1 ul li svg {
+    font-size: 3vw;
+}
+#col1 ul .settings{
+    margin-top: 15vw;
+}
+
+form{
+    width: 50%;
+}
