@@ -1,4 +1,5 @@
-Online Voting System
+# **Online Voting System**
+
 <img width="1364" height="724" alt="121797542-7cdf9c00-cc3e-11eb-9ede-e6f2a113bb7e" src="https://github.com/user-attachments/assets/75d00ac6-a3fc-4340-b251-a80629c3803f" />
 
 Simple web-based Online Voting System — voter registration, authentication, admin management and vote counting.
